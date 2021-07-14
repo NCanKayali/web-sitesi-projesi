@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: #F2F2F2;
+    background-image: url(/Adsız.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+
+}
+.navbar{
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1.25);
+    display: flex;
+    height: 60px;
+
+}
+.logo{
+    height: 80px;
+     margin-top: 10px;
+    margin-left: 120px; 
+}
+.navbar li{
+    display: inline-block;
+    margin-left: 20px;
+    padding-bottom: 12px;
+    position: relative;
+    left: 500px;
+}
+.navbar li:hover{
+}
+.navbar li a:hover{
+    color: white;
+    background-color: rgb(4, 24, 41);
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: underline;
+    text-decoration-color:red ;
+
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    width: 1.7em;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    text-decoration-color: red;
+}
+
+.title h2{
+    font-size: 5em;
+    font-weight: 500px;
+    position: relative;
+    top: 300px;
+    left: 470px;
+}
+.btn{
+    font-size: 50px;
+    background-color:aqua;
+    position: relative;
+    left: 600px;
+    top: 350px;
+}
+.scrool{
+    text-decoration: none;
+    position: relative;
+    left: 1440px;
+    top: 350px;
+    border:2px solid black;
+
+}
